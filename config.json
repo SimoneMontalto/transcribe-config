@@ -1,0 +1,146 @@
+{
+	"models": [
+        {
+		"id": "ggml-tiny.en",
+        "localization": {
+            "en": {
+                "title": "Tiny",
+                "description": "Very fast but okay accuracy (80 MB)"
+            }
+        },
+		"remoteUrl": {
+            "bin": "https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-tiny.en.bin?download=true",
+            "coreMl": "https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-tiny.en-encoder.mlmodelc.zip?download=true"
+        },
+		"english": true,
+		"pro": true,
+		"order": 1
+	}, 
+    {
+		"id": "ggml-tiny",
+        "localization": {
+            "en": {
+                "title": "Tiny",
+                "description": "Very fast but bad accuracy (80 MB)"
+            }
+        },
+		"remoteUrl": {
+            "bin": "https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-tiny.bin?download=true",
+            "coreMl": "https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-tiny-encoder.mlmodelc.zip?download=true"
+        },
+		"english": false,
+		"pro": false,
+		"order": 1
+	}, 
+    {
+		"id": "ggml-base.en",
+        "localization": {
+            "en": {
+                "title": "Base",
+                "description": "Fast with decent accuracy (150 MB)"
+            }
+        },
+		"english": true,
+		"remoteUrl": {
+            "bin": "https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-base.en.bin?download=true",
+            "coreMl": "https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-base.en-encoder.mlmodelc.zip?download=true"
+        },
+		"pro": false,
+		"order": 10
+	}, 
+    {
+		"id": "ggml-base",
+        "localization": {
+            "en": {
+                "title": "Base",
+                "description": "Fast with decent accuracy (150 MB)"
+            }
+        },
+		"english": false,
+		"remoteUrl": {
+            "bin": "https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-base.bin?download=true",
+            "coreMl": "https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-base-encoder.mlmodelc.zip?download=true"
+        },
+		"pro": false,
+		"order": 10
+	}, 
+    {
+		"id": "ggml-small.en",
+        "localization": {
+            "en": {
+                "title": "Small",
+                "description": "Normal speed with good accuracy (500 MB)"
+            }
+        },
+		"english": true,
+		"remoteUrl": {
+            "bin": "https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-small.en.bin?download=true",
+            "coreMl": "https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-small.en-encoder.mlmodelc.zip?download=true"
+        },
+		"order": 20
+	}, 
+    {
+		"id": "ggml-small",
+        "localization": {
+            "en": {
+                "title": "Small",
+                "description": "Normal speed with good accuracy (500 MB)"
+            }
+        },
+		"remoteUrl": {
+            "bin": "https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-small.bin?download=true",
+            "coreMl": "https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-small-encoder.mlmodelc.zip?download=true"
+        },
+		"english": false,
+		"order": 20
+	}, 
+    {
+		"id": "ggml-medium.en",
+        "localization": {
+            "en": {
+                "title": "Medium",
+                "description": "Slow but great accuracy (1.5 GB)"
+            }
+        },
+		"remoteUrl": {
+            "bin": "https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-medium.en.bin?download=true",
+            "coreMl": "https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-medium.en-encoder.mlmodelc.zip?download=true"
+        },
+		"english": true,
+		"order": 30,
+		"pro": true
+	}, 
+    {
+		"id": "ggml-medium",
+        "localization": {
+            "en": {
+                "title": "Medium",
+                "description": "Slow but great accuracy (1.5 GB)"
+            }
+        },
+		"remoteUrl": {
+            "bin": "https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-medium.bin?download=true",
+            "coreMl": "https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-medium-encoder.mlmodelc.zip?download=true"
+        },
+		"english": false,
+		"order": 30,
+		"pro": true
+	}, 
+    {
+		"id": "ggml-large",
+        "localization": {
+            "en": {
+                "title": "Large",
+                "description": "Very slow but amazing accuracy (3 GB)"
+            }
+        },
+		"remoteUrl": {
+            "bin": "https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-large-v2.bin?download=true",
+            "coreMl": "https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-large-v2-encoder.mlmodelc.zip?download=true"
+        },
+		"english": false,
+		"order": 40,
+		"pro": true
+	}]
+
+}
